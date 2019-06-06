@@ -1,0 +1,140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArgumentValidationError	../__init__.py	/^from imageprocessing.errors import ArgumentValidationError, InvalidArgumentNumberError, InvalidReturnType$/;"	kind:namespace	line:5
+ArgumentValidationError	../errors.py	/^class ArgumentValidationError(ValueError):$/;"	kind:class	line:2
+ArgumentValidationError	../helpers.py	/^from imageprocessing.errors import ArgumentValidationError$/;"	kind:namespace	line:10
+BytesIO	../storage.py	/^from io import BytesIO$/;"	kind:namespace	line:2
+FontProps	../__init__.py	/^from imageprocessing.font_props import FontProps$/;"	kind:namespace	line:7
+FontProps	../font_props.py	/^class FontProps(object):$/;"	kind:class	line:7
+FontProps	../image_generator.py	/^from imageprocessing.font_props import FontProps$/;"	kind:namespace	line:31
+Image	../image_generator.py	/^from PIL import Image$/;"	kind:namespace	line:32
+ImageEnhancement	../__init__.py	/^from imageprocessing.image_enhancement import ImageEnhancement$/;"	kind:namespace	line:6
+ImageEnhancement	../image_enhancement.py	/^class ImageEnhancement(object):$/;"	kind:class	line:2
+ImageEnhancement	../image_generator.py	/^from imageprocessing.image_enhancement import ImageEnhancement$/;"	kind:namespace	line:30
+ImageEnhancement	../image_props.py	/^from imageprocessing.image_enhancement import ImageEnhancement$/;"	kind:namespace	line:2
+ImageGenerator	../__init__.py	/^from imageprocessing.image_generator import ImageGenerator$/;"	kind:namespace	line:9
+ImageGenerator	../image_generator.py	/^class ImageGenerator(object):$/;"	kind:class	line:35
+ImageProps	../__init__.py	/^from imageprocessing.image_props import ImageProps$/;"	kind:namespace	line:8
+ImageProps	../helpers.py	/^from imageprocessing.image_props import ImageProps$/;"	kind:namespace	line:8
+ImageProps	../image_generator.py	/^from imageprocessing.image_props import ImageProps$/;"	kind:namespace	line:29
+ImageProps	../image_props.py	/^class ImageProps(object):$/;"	kind:class	line:3
+ImageProps	../name_generator.py	/^from imageprocessing.image_props import ImageProps$/;"	kind:namespace	line:4
+InvalidArgumentNumberError	../__init__.py	/^from imageprocessing.errors import ArgumentValidationError, InvalidArgumentNumberError, InvalidReturnType$/;"	kind:namespace	line:5
+InvalidArgumentNumberError	../errors.py	/^class InvalidArgumentNumberError(ValueError):$/;"	kind:class	line:15
+InvalidArgumentNumberError	../helpers.py	/^from imageprocessing.errors import InvalidArgumentNumberError$/;"	kind:namespace	line:9
+InvalidReturnType	../__init__.py	/^from imageprocessing.errors import ArgumentValidationError, InvalidArgumentNumberError, InvalidReturnType$/;"	kind:namespace	line:5
+InvalidReturnType	../errors.py	/^class InvalidReturnType(ValueError):$/;"	kind:class	line:30
+InvalidReturnType	../helpers.py	/^from imageprocessing.errors import InvalidReturnType$/;"	kind:namespace	line:11
+LOCAL	../storage.py	/^LOCAL = 0$/;"	kind:variable	line:6
+NameGenerator	../name_generator.py	/^class NameGenerator(object):$/;"	kind:class	line:5
+REG	../helpers.py	/^REG = re.compile(r'(?!^)(?<!_)([A-Z])')$/;"	kind:variable	line:13
+S3	../storage.py	/^S3 = 1$/;"	kind:variable	line:7
+S3	../storage.py	/^import boto3 # amazon S3$/;"	kind:namespace	line:4
+Storage	../storage.py	/^class Storage(object):$/;"	kind:class	line:9
+__eq__	../font_props.py	/^    def __eq__(self, other):$/;"	kind:member	line:18
+__eq__	../image_enhancement.py	/^    def __eq__(self, other):$/;"	kind:member	line:24
+__eq__	../image_generator.py	/^    def __eq__(self, other):$/;"	kind:member	line:59
+__eq__	../image_props.py	/^    def __eq__(self, other):$/;"	kind:member	line:19
+__eq__	../name_generator.py	/^    def __eq__(self, other):$/;"	kind:member	line:22
+__init__	../errors.py	/^    def __init__(self, arg_num, func_name, accepted_arg_type):$/;"	kind:member	line:6
+__init__	../errors.py	/^    def __init__(self, func_name):$/;"	kind:member	line:23
+__init__	../errors.py	/^    def __init__(self, return_type, func_name):$/;"	kind:member	line:34
+__init__	../font_props.py	/^    def __init__(self,$/;"	kind:member	line:9
+__init__	../image_enhancement.py	/^    def __init__(self,$/;"	kind:member	line:7
+__init__	../image_generator.py	/^    def __init__(self,$/;"	kind:member	line:41
+__init__	../image_props.py	/^    def __init__(self,$/;"	kind:member	line:8
+__init__	../name_generator.py	/^    def __init__(self,$/;"	kind:member	line:13
+__init__	../storage.py	/^    def __init__(self, image=None, storage_type=LOCAL):$/;"	kind:member	line:14
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__ne__	../font_props.py	/^    def __ne__(self, other):$/;"	kind:member	line:24
+__ne__	../image_enhancement.py	/^    def __ne__(self, other):$/;"	kind:member	line:30
+__ne__	../image_generator.py	/^    def __ne__(self, other):$/;"	kind:member	line:65
+__ne__	../image_props.py	/^    def __ne__(self, other):$/;"	kind:member	line:25
+__ne__	../name_generator.py	/^    def __ne__(self, other):$/;"	kind:member	line:28
+__str__	../errors.py	/^    def __str__(self):$/;"	kind:member	line:12
+__str__	../errors.py	/^    def __str__(self):$/;"	kind:member	line:27
+__str__	../errors.py	/^    def __str__(self):$/;"	kind:member	line:39
+__str__	../font_props.py	/^    def __str__(self):$/;"	kind:member	line:58
+__str__	../image_enhancement.py	/^    def __str__(self):$/;"	kind:member	line:69
+__str__	../image_generator.py	/^    def __str__(self):$/;"	kind:member	line:299
+__str__	../image_props.py	/^    def __str__(self):$/;"	kind:member	line:84
+accept_decorator	../helpers.py	/^    def accept_decorator(validate_function):$/;"	kind:function	line:42
+accepts	../__init__.py	/^from imageprocessing.helpers import ordinal, accepts, returns$/;"	kind:namespace	line:4
+accepts	../helpers.py	/^def accepts(*accepted_arg_types):$/;"	kind:function	line:33
+accepts	../image_generator.py	/^from imageprocessing.helpers import accepts$/;"	kind:namespace	line:28
+amazon	../storage.py	/^import boto3 # amazon S3$/;"	kind:namespace	line:4
+background_color	../image_props.py	/^    def background_color(self):$/;"	kind:member	line:45
+boto3	../storage.py	/^import boto3 # amazon S3$/;"	kind:namespace	line:4
+brightness	../image_enhancement.py	/^    def brightness(self):$/;"	kind:member	line:55
+brightness	../image_props.py	/^    def brightness(self):$/;"	kind:member	line:60
+camel_to_snake	../font_props.py	/^from helpers import camel_to_snake$/;"	kind:namespace	line:5
+camel_to_snake	../helpers.py	/^def camel_to_snake(text):$/;"	kind:function	line:15
+color	../font_props.py	/^    def color(self):$/;"	kind:member	line:29
+color_adjust	../image_enhancement.py	/^    def color_adjust(self):$/;"	kind:member	line:60
+color_adjust	../image_props.py	/^    def color_adjust(self):$/;"	kind:member	line:65
+contrast	../image_enhancement.py	/^    def contrast(self):$/;"	kind:member	line:45
+contrast	../image_props.py	/^    def contrast(self):$/;"	kind:member	line:50
+create_image	../image_generator.py	/^    def create_image(text='A', props=None):$/;"	kind:member	line:269
+decorator_wrapper	../helpers.py	/^        def decorator_wrapper(*function_args):$/;"	kind:function	line:88
+decorator_wrapper	../helpers.py	/^        def decorator_wrapper(*function_args, **function_args_dict):$/;"	kind:function	line:51
+errors.py	../errors.py	1;"	kind:file	line:1
+file	../font_props.py	/^    def file(self):$/;"	kind:member	line:39
+filename	../font_props.py	/^    def filename(self):$/;"	kind:member	line:43
+filename	../image_generator.py	/^    def filename(self):$/;"	kind:member	line:75
+foldername	../font_props.py	/^    def foldername(self):$/;"	kind:member	line:52
+font_path	../image_props.py	/^    def font_path(self):$/;"	kind:member	line:80
+font_props.py	../font_props.py	1;"	kind:file	line:1
+font_size	../image_props.py	/^    def font_size(self):$/;"	kind:member	line:75
+fontconfig	../font_props.py	/^import fontconfig$/;"	kind:namespace	line:4
+fontconfig	../helpers.py	/^import fontconfig$/;"	kind:namespace	line:7
+fontconfig	../image_generator.py	/^import fontconfig$/;"	kind:namespace	line:27
+functools	../helpers.py	/^import functools$/;"	kind:namespace	line:5
+generate_image_of_character	../image_generator.py	/^    def generate_image_of_character($/;"	kind:member	line:217
+generate_images_by_character	../helpers.py	/^def generate_images_by_character($/;"	kind:function	line:171
+generate_images_by_font	../helpers.py	/^def generate_images_by_font($/;"	kind:function	line:126
+generate_images_by_font	../image_generator.py	/^    def generate_images_by_font($/;"	kind:member	line:171
+helpers.py	../helpers.py	1;"	kind:file	line:1
+image	../image_generator.py	/^    def image(self):$/;"	kind:member	line:131
+image	../image_generator.py	/^    def image(self, value):$/;"	kind:member	line:140
+image_enhancement.py	../image_enhancement.py	1;"	kind:file	line:1
+image_generator.py	../image_generator.py	1;"	kind:file	line:1
+image_id	../image_generator.py	/^    def image_id(self):$/;"	kind:member	line:125
+image_props	../image_generator.py	/^    def image_props(self):$/;"	kind:member	line:104
+image_props	../image_generator.py	/^    def image_props(self, value):$/;"	kind:member	line:110
+image_props	../name_generator.py	/^    def image_props(self):$/;"	kind:member	line:33
+image_props.py	../image_props.py	1;"	kind:file	line:1
+klass	../image_generator.py	/^    def klass(self):$/;"	kind:member	line:98
+merge_object_properties	../helpers.py	/^def merge_object_properties(from_object, to_object):$/;"	kind:function	line:114
+name	../font_props.py	/^    def name(self):$/;"	kind:member	line:47
+name	../image_enhancement.py	/^    def name(self):$/;"	kind:member	line:35
+name	../image_props.py	/^    def name(self):$/;"	kind:member	line:30
+name	../name_generator.py	/^    def name(self):$/;"	kind:member	line:44
+name_generator.py	../name_generator.py	1;"	kind:file	line:1
+ordinal	../__init__.py	/^from imageprocessing.helpers import ordinal, accepts, returns$/;"	kind:namespace	line:4
+ordinal	../helpers.py	/^def ordinal(num):$/;"	kind:function	line:22
+os	../font_props.py	/^import os$/;"	kind:namespace	line:3
+os	../image_generator.py	/^import os$/;"	kind:namespace	line:26
+os	../storage.py	/^import os$/;"	kind:namespace	line:3
+output_dir	../image_generator.py	/^    def output_dir(self):$/;"	kind:member	line:91
+re	../helpers.py	/^import re$/;"	kind:namespace	line:6
+return_decorator	../helpers.py	/^    def return_decorator(validate_function):$/;"	kind:function	line:80
+returns	../__init__.py	/^from imageprocessing.helpers import ordinal, accepts, returns$/;"	kind:namespace	line:4
+returns	../helpers.py	/^def returns(*accepted_return_type_tuple):$/;"	kind:function	line:71
+rotation	../image_enhancement.py	/^    def rotation(self):$/;"	kind:member	line:40
+rotation	../image_props.py	/^    def rotation(self):$/;"	kind:member	line:35
+save	../image_generator.py	/^    def save(self):$/;"	kind:member	line:155
+save	../storage.py	/^    def save(self):$/;"	kind:member	line:44
+saved	../image_generator.py	/^    def saved(self):$/;"	kind:member	line:150
+sharpness	../image_enhancement.py	/^    def sharpness(self):$/;"	kind:member	line:50
+sharpness	../image_props.py	/^    def sharpness(self):$/;"	kind:member	line:55
+size	../font_props.py	/^    def size(self):$/;"	kind:member	line:34
+size	../image_enhancement.py	/^    def size(self):$/;"	kind:member	line:65
+size	../image_props.py	/^    def size(self):$/;"	kind:member	line:70
+storage.py	../storage.py	1;"	kind:file	line:1
+storage_type	../storage.py	/^    def storage_type(self):$/;"	kind:member	line:33
+text	../image_generator.py	/^    def text(self):$/;"	kind:member	line:70
+text_color	../image_props.py	/^    def text_color(self):$/;"	kind:member	line:40
